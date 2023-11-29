@@ -1,0 +1,22 @@
+.titleNav{
+    display:flex;
+    padding:1rem 3rem;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    height:calc(100%- 60px);
+    width:100%;
+    background:blue;
+    align-items:center;
+    color:white;
+    z-index:999;
+    
+}
+.titleRight{
+    font-size:16px;
+    font-weight:500;
+}
+.titleLeft{
+   font-size:25px;
+   font-weight:800;
+}

@@ -1,0 +1,27 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  cursor:pointer;
+}
+.app{
+  width:100vw;
+  height:100%;
+}
+.smallScreen{
+  background-image:url("./assets/background.jpg");
+  background-repeat:no-repeat;
+  object-fit:contain;
+  height:100vh;
+  width:100vw;
+}
+.smallScreen h1{
+  color:white;
+  font-size:40px;
+  position:absolute;
+  top:50%;
+  left:10%;
+}
